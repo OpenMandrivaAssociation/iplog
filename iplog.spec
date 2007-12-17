@@ -13,7 +13,6 @@ Requires(post): rpm-helper
 Requires(preun): rpm-helper
 BuildRequires:	libpcap-devel
 Buildrequires:	libpcap-devel 
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 iplog is a TCP/IP traffic logger. Currently, it is capable of logging TCP, UDP
