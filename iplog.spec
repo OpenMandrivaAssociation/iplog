@@ -1,7 +1,7 @@
 Summary:	Logs TCP, UDP, and ICMP connections to syslog
 Name:		iplog
 Version:	2.2.3
-Release:	%mkrel 11
+Release:	%mkrel 12
 License:	GPL
 Group:		Monitoring
 URL:		http://ojnk.sourceforge.net
