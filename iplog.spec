@@ -1,7 +1,7 @@
 Summary:	Logs TCP, UDP, and ICMP connections to syslog
 Name:		iplog
 Version:	2.2.3
-Release:	%mkrel 13
+Release:	%mkrel 14
 License:	GPL
 Group:		Monitoring
 URL:		http://ojnk.sourceforge.net
@@ -13,7 +13,7 @@ Requires(post): rpm-helper
 Requires(preun): rpm-helper
 BuildRequires:	libpcap-devel
 Buildrequires:	libpcap-devel 
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 iplog is a TCP/IP traffic logger. Currently, it is capable of logging TCP, UDP
