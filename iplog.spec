@@ -1,7 +1,7 @@
 Summary:	Logs TCP, UDP, and ICMP connections to syslog
 Name:		iplog
 Version:	2.2.3
-Release:	%mkrel 14
+Release:	%mkrel 15
 License:	GPL
 Group:		Monitoring
 URL:		http://ojnk.sourceforge.net
@@ -11,7 +11,6 @@ Source2:	%{name}.conf
 Patch0:		%{name}-2.2.3-gcc-3.3.patch
 Requires(post): rpm-helper
 Requires(preun): rpm-helper
-BuildRequires:	libpcap-devel
 Buildrequires:	libpcap-devel 
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
