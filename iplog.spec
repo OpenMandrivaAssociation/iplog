@@ -1,7 +1,7 @@
 Summary:	Logs TCP, UDP, and ICMP connections to syslog
 Name:		iplog
 Version:	2.2.3
-Release:	%mkrel 15
+Release:	%mkrel 16
 License:	GPL
 Group:		Monitoring
 URL:		http://ojnk.sourceforge.net
@@ -53,5 +53,3 @@ rm -rf %{buildroot}
 %{_sbindir}/*
 %{_mandir}/man5/*
 %{_mandir}/man8/*
-
-
