@@ -1,0 +1,12 @@
+[Unit]
+Description=This program lets you log tcp, udp, and icmp connections in syslog, along with the hostname.
+After=syslog.target network.target
+Wants=network.target
+
+[Service]
+Type=forking
+EnvironmentFile=-/etc/sysconfig/network
+ExecStart=/usr/sbin/iplog &
+
+[Install]
+WantedBy=multi-user.target
