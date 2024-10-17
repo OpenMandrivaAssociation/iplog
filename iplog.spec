@@ -4,7 +4,7 @@ Version:	2.2.3
 Release:	33
 License:	GPL
 Group:		Monitoring
-URL:		http://ojnk.sourceforge.net
+URL:		https://ojnk.sourceforge.net
 Source0:	%{name}-%{version}.tar.bz2
 Source1:	%{name}.service
 Source2:	%{name}.conf
