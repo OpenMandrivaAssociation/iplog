@@ -9,6 +9,11 @@ Source0:	%{name}-%{version}.tar.bz2
 Source1:	%{name}.service
 Source2:	%{name}.conf
 Patch0:		%{name}-2.2.3-gcc-3.3.patch
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pcap-devel
 
 %description
